@@ -1,0 +1,22 @@
+{
+  "name": "cube",
+  "version": "0.0.1",
+  "description": "A cube...",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "three": "^0.126.1",
+    "three-trackballcontrols": "^0.9.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build --dist-dir ./build ./src/index.html",
+    "serve": "serve build"
+  },
+  "author": "",
+  "license": "ISC"
+}
